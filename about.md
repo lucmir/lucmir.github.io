@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hi! I am Lucas. I am a developer.
+Hello World! I am Lucas. I am a developer.

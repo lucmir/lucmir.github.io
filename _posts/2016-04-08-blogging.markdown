@@ -2,7 +2,7 @@
 layout: post
 title:  "Blogging"
 date:   2016-04-08 13:10:00
-categories: jekyll update
+categories: web
 description: Using jekyll + GitHub Pages to build and host a simple Blog
 ---
 
