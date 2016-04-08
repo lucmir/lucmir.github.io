@@ -6,8 +6,8 @@
 </description>
     <link>http://lucmir.github.io/</link>
     <atom:link href="http://lucmir.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Apr 2016 14:34:13 -0300</pubDate>
-    <lastBuildDate>Fri, 08 Apr 2016 14:34:13 -0300</lastBuildDate>
+    <pubDate>Fri, 08 Apr 2016 14:49:59 -0300</pubDate>
+    <lastBuildDate>Fri, 08 Apr 2016 14:49:59 -0300</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -30,7 +30,15 @@ As I didn't want to spend a lot of time learning Blog tools, I searched...
 
 &lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
 
-&lt;p&gt;Jekyll is a “Simple, blog-aware, static site generator”.&lt;/p&gt;
+&lt;p&gt;Jekyll is a “Simple, blog-aware, static site generator”. Some Jekyll advantages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jekyll uses Markdown, a easy-to-use syntax with code block support.&lt;/li&gt;
+  &lt;li&gt;Jekyll has support for common templates, such as headers and footers, that are shared across files.&lt;/li&gt;
+  &lt;li&gt;As Jekyll is a static site generator, your Blog will be lightweight.&lt;/li&gt;
+  &lt;li&gt;No more database.&lt;/li&gt;
+  &lt;li&gt;Simplicity.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Installing some requisits (for Ubuntu users):&lt;/p&gt;
 

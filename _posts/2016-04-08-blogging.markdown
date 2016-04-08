@@ -20,9 +20,15 @@ I found the perfect solution for building fast a clean and easy to mantain Blog:
 - With [Jekyll](https://jekyllrb.com) you can start a Blog with few command lines. 
 - With [GitHub Pages](https://pages.github.com) you can host your Blog for free (with version control of coarse).
 
-##Jekyll##
+## Jekyll ##
 
-Jekyll is a "Simple, blog-aware, static site generator". 
+Jekyll is a "Simple, blog-aware, static site generator". Some Jekyll advantages:
+
+- Jekyll uses Markdown, a easy-to-use syntax with code block support.
+- Jekyll has support for common templates, such as headers and footers, that are shared across files.
+- As Jekyll is a static site generator, your Blog will be lightweight.
+- No more database.
+- Simplicity.
 
 Installing some requisits (for Ubuntu users):
 {% highlight bash %}
@@ -46,7 +52,7 @@ $ jekyll serve
 
 Jekyll Documentation: [https://jekyllrb.com/docs/home](https://jekyllrb.com/docs/home)
 
-##GitHub Pages##
+## GitHub Pages ##
 
 GitHub Pages are public webpages hosted and published through GitHub..
 
