@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title><strong>lucmir</strong></title>
-  <meta name="description" content=""Just a humble Blog to document solutions for my daily problems as a developer."
-">
+  <title><strong>Blogging</strong></title>
+  <meta name="description" content="&lt;!&#8211; In the first page of Jekyll site you can read &#8220;Transform your plain text into static websites and blogs&#8221;. This was my motivation to ...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://lucmir.github.io/">
+  <link rel="canonical" href="http://lucmir.github.io/web/2016/04/08/blogging.html">
   <link rel="alternate" type="application/atom+xml" title="lucmir" href="http://lucmir.github.io/feed.xml" />
 </head>
 
@@ -55,29 +54,42 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <!--<h1 class="page-heading">Posts</h1>-->
+  <header class="post-header">
+    <h1 class="post-title">Blogging</h1>
+    <p class="post-meta">Apr 8, 2016</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-link" href="/web/2016/04/08/blogging.html">Blogging</a>
-            <span class="post-meta">Apr 8, 2016</span></br>
-            
-                <small>
-                    Using jekyll + GitHub Pages to build and host a simple Blog
-		    <!--</br>
-                    <a href="/web/2016/04/08/blogging.html">Read More</a>-->
-                </small>
-            
-        </h3>
-      </li>
-    
-  </ul>
-  <!--<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>-->
+  <article class="post-content">
+    <!-- In the first page of Jekyll site you can read "Transform your plain text into static websites and blogs". This was my motivation to start a Blog.
+Before knowing about Jekyll I decided that I needed to document some solutions (like code snippets) to recurrent problems in my daily routine as a developer.
+I decided to document on Web and to make it public (maibe your problem was my problem). So I realized that my project became a blog.
 
-  
+As I didn't want to spend a lot of time learning Blog tools, I searched...
+-->
+<p>When I decided to start a Blog I didn’t want to spend a lot of time learning Blog platforms or building a CMS from scratch. 
+<!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  --></p>
+
+<p>I found the perfect solution for building a clean and easy to mantain Blog:</p>
+
+<ul>
+  <li>With <a href="https://jekyllrb.com">Jekyll</a> you can start a Blog with few commands in a terminal.</li>
+  <li>With <a href="https://pages.github.com">GitHub Pages</a> you can host your Blog for free (with version control of coarse).</li>
+</ul>
+
+<p>Installing Jekyll:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>sudo apt-get install ruby ruby-dev make gcc nodejs
+<span class="nv">$ </span>sudo gem install jekyll 
+<span class="nv">$ </span>jekyll new my-awesome-site
+<span class="nv">$ </span><span class="nb">cd </span>my-awesome-site 
+<span class="nv">$ </span>jekyll serve</code></pre></div>
+
+<p>How to host your blog in GitHub Pages: <a href="https://pages.github.com">https://pages.github.com</a></p>
+
+
+  </article>
 
 </div>
 

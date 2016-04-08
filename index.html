@@ -13,8 +13,9 @@ layout: default
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></br>
             {% if post.description %}
                 <small>
-                    {{ post.description }}</br>
-                    <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+                    {{ post.description }}
+		    <!--</br>
+                    <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>-->
                 </small>
             {% endif %}
         </h3>
