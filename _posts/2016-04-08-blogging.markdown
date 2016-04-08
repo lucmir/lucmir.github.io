@@ -26,7 +26,7 @@ Jekyll is a "Simple, blog-aware, static site generator". Some Jekyll advantages:
 
 - Jekyll uses Markdown, a easy-to-use syntax with code block support.
 - Jekyll has support for common templates, such as headers and footers, that are shared across files.
-- As Jekyll is a static site generator, your Blog will be lightweight.
+- As Jekyll is a static HTML site generator, your Blog will be lightweight.
 - No more database.
 - Simplicity.
 
