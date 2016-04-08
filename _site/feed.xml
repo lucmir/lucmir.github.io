@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lucmir</title>
+    <description>Just a humble blog to document some solutions for my daily problems as a coder.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 08 Apr 2016 13:00:30 -0300</pubDate>
+    <lastBuildDate>Fri, 08 Apr 2016 13:00:30 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.0</generator>
+    
+      <item>
+        <title>Blogging</title>
+        <description>&lt;!-- In the first page of Jekyll site you can read &quot;Transform your plain text into static websites and blogs&quot;. This was my motivation to start a Blog.
+Before knowing about Jekyll I decided that I needed to document some solutions (like code snippets) to recurrent problems in my daily routine as a developer.
+I decided to document on Web and to make it public (maibe your problem was my problem). So I realized that my project became a blog.
+
+As I didn't want to spend a lot of time learning Blog tools, I searched...
+--&gt;
+&lt;p&gt;When I decided to start a Blog I didn’t want to spend a lot of time learning Blog platforms or building a CMS from scratch. 
+&lt;!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  --&gt;&lt;/p&gt;
+
+&lt;p&gt;I found the perfect solution for building a clean and easy to mantain Blog:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;With &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; you can start a Blog with few commands in a terminal.&lt;/li&gt;
+  &lt;li&gt;With &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; you can host your Blog for free (with version control of coarse).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Installing Jekyll:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo apt-get install ruby ruby-dev make gcc nodejs
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo gem install jekyll 
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll new my-awesome-site
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-awesome-site 
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll serve&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;How to host your blog in GitHub Pages: &lt;a href=&quot;https://pages.github.com&quot;&gt;https://pages.github.com&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 08 Apr 2016 10:10:00 -0300</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2016/04/08/blogging.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/04/08/blogging.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

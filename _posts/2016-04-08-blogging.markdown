@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Blogging"
+date:   2016-04-08 13:10:00
+categories: jekyll update
+description: Using jekyll + GitHub Pages to build and host a simple Blog
+---
+
+<!-- In the first page of Jekyll site you can read "Transform your plain text into static websites and blogs". This was my motivation to start a Blog.
+Before knowing about Jekyll I decided that I needed to document some solutions (like code snippets) to recurrent problems in my daily routine as a developer.
+I decided to document on Web and to make it public (maibe your problem was my problem). So I realized that my project became a blog.
+
+As I didn't want to spend a lot of time learning Blog tools, I searched...
+-->
+When I decided to start a Blog I didn't want to spend a lot of time learning Blog platforms or building a CMS from scratch. 
+<!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  -->
+
+I found the perfect solution for building a clean and easy to mantain Blog:
+
+- With [Jekyll](https://jekyllrb.com) you can start a Blog with few commands in a terminal. 
+- With [GitHub Pages](https://pages.github.com) you can host your Blog for free (with version control of coarse).
+
+Installing Jekyll:
+{% highlight bash %}
+$ sudo apt-get install ruby ruby-dev make gcc nodejs
+$ sudo gem install jekyll 
+$ jekyll new my-awesome-site
+$ cd my-awesome-site 
+$ jekyll serve
+{% endhighlight %}
+
+How to host your blog in GitHub Pages: [https://pages.github.com](https://pages.github.com)
+

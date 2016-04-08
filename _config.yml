@@ -1,0 +1,15 @@
+# Site settings
+title: "lucmir"
+email: luccmir@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Just a humble blog to document some solutions for my daily problems as a coder.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lucmir.github.io/blog" # the base hostname & protocol for your site
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+#twitter_username: jekyllrb
+github_username:  lucmir
+
+# Build settings
+markdown: kramdown
