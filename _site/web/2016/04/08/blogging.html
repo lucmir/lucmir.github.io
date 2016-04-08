@@ -71,12 +71,20 @@ As I didn't want to spend a lot of time learning Blog tools, I searched...
 <p>When I decided to start a Blog I didn’t want to spend a lot of time learning Blog platforms or building a CMS from scratch. 
 <!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  --></p>
 
-<p>I found the perfect solution for building a clean and easy to mantain Blog:</p>
+<p>I found the perfect solution for building fast a clean and easy to mantain Blog:</p>
 
 <ul>
-  <li>With <a href="https://jekyllrb.com">Jekyll</a> you can start a Blog with few commands in a terminal.</li>
+  <li>With <a href="https://jekyllrb.com">Jekyll</a> you can start a Blog with few command lines.</li>
   <li>With <a href="https://pages.github.com">GitHub Pages</a> you can host your Blog for free (with version control of coarse).</li>
 </ul>
+
+<h2 id="jekyll">Jekyll</h2>
+
+<p>Jekyll is a “Simple, blog-aware, static site generator”.</p>
+
+<p>Installing some requisits (for Ubuntu users):</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>sudo apt-get install ruby ruby-dev make gcc nodejs</code></pre></div>
 
 <p>Installing Jekyll:</p>
 
@@ -86,7 +94,30 @@ As I didn't want to spend a lot of time learning Blog tools, I searched...
 <span class="nv">$ </span><span class="nb">cd </span>my-awesome-site 
 <span class="nv">$ </span>jekyll serve</code></pre></div>
 
-<p>How to host your blog in GitHub Pages: <a href="https://pages.github.com">https://pages.github.com</a></p>
+<p>Running Jekyll locally:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd </span>my-awesome-site 
+<span class="nv">$ </span>jekyll serve</code></pre></div>
+
+<p>Jekyll Documentation: <a href="https://jekyllrb.com/docs/home">https://jekyllrb.com/docs/home</a></p>
+
+<h2 id="github-pages">GitHub Pages</h2>
+
+<p>GitHub Pages are public webpages hosted and published through GitHub..</p>
+
+<p>Using Github Pages is easy:</p>
+
+<ul>
+  <li>create a new repository named username.github.io, where username is your username (or organization name) on GitHub.</li>
+  <li>add, commit and push a <em>index.html</em>.</li>
+  <li>access http://username.github.io</li>
+</ul>
+
+<p>To <strong>host your Jekyll Blog on GitHub Pages</strong> just push your unbuilt Jekyll Blog to the master branch of your user repository.
+GitHub Pages will build the static website and serve it. It’s also possible to host pages for your projects on GitHub Pages.</p>
+
+<p>More info about GitHub Pages: <a href="https://pages.github.com">https://pages.github.com</a><br />
+More info about using Jekyll with GitHub Pages: <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">smashingmagazine/build-blog-jekyll-github-pages</a></p>
 
 
   </article>
