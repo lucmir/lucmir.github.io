@@ -12,7 +12,7 @@ I decided to document on Web and to make it public (maibe your problem was my pr
 
 As I didn't want to spend a lot of time learning Blog tools, I searched...
 -->
-When I decided to start a Blog I didn't want to spend a lot of time learning Blog platforms or building a CMS from scratch. 
+When I decided to start a Blog I didn't want to spend a lot of time learning about Blog platforms or building a CMS from scratch. 
 <!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  -->
 
 I found the perfect solution for building fast a clean and easy to mantain Blog:
@@ -27,7 +27,7 @@ Jekyll is a "Simple, blog-aware, static site generator". Some Jekyll advantages:
 - Jekyll uses Markdown, a easy-to-use syntax with code block support.
 - Jekyll has support for common templates, such as headers and footers, that are shared across files.
 - As Jekyll is a static HTML site generator, your Blog will be lightweight.
-- No more database.
+- No need for database.
 - Simplicity.
 
 Installing some requisits (for Ubuntu users):
@@ -37,16 +37,17 @@ $ sudo apt-get install ruby ruby-dev make gcc nodejs
 
 Installing Jekyll:
 {% highlight bash %}
-$ sudo apt-get install ruby ruby-dev make gcc nodejs
 $ sudo gem install jekyll 
-$ jekyll new my-awesome-site
-$ cd my-awesome-site 
-$ jekyll serve
+{% endhighlight %}
+
+Starting a blog:
+{% highlight bash %}
+$ jekyll new myblog
 {% endhighlight %}
 
 Running Jekyll locally:
 {% highlight bash %}
-$ cd my-awesome-site 
+$ cd myblog
 $ jekyll serve
 {% endhighlight %}
 
