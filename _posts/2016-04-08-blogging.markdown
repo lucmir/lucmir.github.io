@@ -15,10 +15,10 @@ As I didn't want to spend a lot of time learning Blog tools, I searched...
 When I decided to start a Blog I didn't want to spend a lot of time learning about Blog platforms or building a CMS from scratch. 
 <!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  -->
 
-I found the perfect solution (free and easy) for building fast a clean and easy to mantain Blog:
+I found the perfect solution (free and easy) for building quickly a clean and easy to mantain Blog:
 
 - With [Jekyll](https://jekyllrb.com) you can start a Blog with few command lines. 
-- With [GitHub Pages](https://pages.github.com) you can host your Blog for free (with version control of coarse).
+- With [GitHub Pages](https://pages.github.com) you can host your Blog for free (and with version control of coarse).
 
 ## Jekyll ##
 

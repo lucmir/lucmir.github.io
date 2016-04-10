@@ -6,8 +6,8 @@
 </description>
     <link>http://lucmir.github.io/</link>
     <atom:link href="http://lucmir.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Apr 2016 09:42:56 -0300</pubDate>
-    <lastBuildDate>Sun, 10 Apr 2016 09:42:56 -0300</lastBuildDate>
+    <pubDate>Sun, 10 Apr 2016 09:48:30 -0300</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2016 09:48:30 -0300</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -21,11 +21,11 @@ As I didn't want to spend a lot of time learning Blog tools, I searched...
 &lt;p&gt;When I decided to start a Blog I didn’t want to spend a lot of time learning about Blog platforms or building a CMS from scratch. 
 &lt;!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  --&gt;&lt;/p&gt;
 
-&lt;p&gt;I found the perfect solution (free and easy) for building fast a clean and easy to mantain Blog:&lt;/p&gt;
+&lt;p&gt;I found the perfect solution (free and easy) for building quickly a clean and easy to mantain Blog:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;With &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; you can start a Blog with few command lines.&lt;/li&gt;
-  &lt;li&gt;With &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; you can host your Blog for free (with version control of coarse).&lt;/li&gt;
+  &lt;li&gt;With &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; you can host your Blog for free (and with version control of coarse).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
