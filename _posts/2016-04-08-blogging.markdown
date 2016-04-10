@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Blogging"
+title:  "Blogging with Jekyll and GitHub Pages"
 date:   2016-04-08 13:10:00
 categories: web
-description: Using Jekyll + GitHub Pages to build and host a simple Blog
+description: Using Jekyll and GitHub Pages to build and host a simple Blog in minutes.
 ---
 
 <!-- In the first page of Jekyll site you can read "Transform your plain text into static websites and blogs". This was my motivation to start a Blog.

@@ -6,12 +6,12 @@
 </description>
     <link>http://lucmir.github.io/</link>
     <atom:link href="http://lucmir.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Apr 2016 16:47:19 -0300</pubDate>
-    <lastBuildDate>Fri, 08 Apr 2016 16:47:19 -0300</lastBuildDate>
+    <pubDate>Sun, 10 Apr 2016 09:41:31 -0300</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2016 09:41:31 -0300</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
-        <title>Blogging</title>
+        <title>Blogging with Jekyll and GitHub Pages</title>
         <description>&lt;!-- In the first page of Jekyll site you can read &quot;Transform your plain text into static websites and blogs&quot;. This was my motivation to start a Blog.
 Before knowing about Jekyll I decided that I needed to document some solutions (like code snippets) to recurrent problems in my daily routine as a developer.
 I decided to document on Web and to make it public (maibe your problem was my problem). So I realized that my project became a blog.
