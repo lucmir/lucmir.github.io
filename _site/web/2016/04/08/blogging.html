@@ -79,10 +79,10 @@ I decided to document on Web and to make it public (maibe your problem was my pr
 
 As I didn't want to spend a lot of time learning Blog tools, I searched...
 -->
-<p>When I decided to start a Blog I didn’t want to spend a lot of time learning Blog platforms or building a CMS from scratch. 
+<p>When I decided to start a Blog I didn’t want to spend a lot of time learning about Blog platforms or building a CMS from scratch. 
 <!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  --></p>
 
-<p>I found the perfect solution for building fast a clean and easy to mantain Blog:</p>
+<p>I found the perfect solution (free and easy) for building fast a clean and easy to mantain Blog:</p>
 
 <ul>
   <li>With <a href="https://jekyllrb.com">Jekyll</a> you can start a Blog with few command lines.</li>
@@ -97,7 +97,7 @@ As I didn't want to spend a lot of time learning Blog tools, I searched...
   <li>Jekyll uses Markdown, a easy-to-use syntax with code block support.</li>
   <li>Jekyll has support for common templates, such as headers and footers, that are shared across files.</li>
   <li>As Jekyll is a static HTML site generator, your Blog will be lightweight.</li>
-  <li>No more database.</li>
+  <li>No need for database.</li>
   <li>Simplicity.</li>
 </ul>
 
@@ -107,29 +107,29 @@ As I didn't want to spend a lot of time learning Blog tools, I searched...
 
 <p>Installing Jekyll:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>sudo apt-get install ruby ruby-dev make gcc nodejs
-<span class="nv">$ </span>sudo gem install jekyll 
-<span class="nv">$ </span>jekyll new my-awesome-site
-<span class="nv">$ </span><span class="nb">cd </span>my-awesome-site 
-<span class="nv">$ </span>jekyll serve</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>sudo gem install jekyll</code></pre></div>
+
+<p>Starting a blog:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll new myblog</code></pre></div>
 
 <p>Running Jekyll locally:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd </span>my-awesome-site 
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd </span>myblog
 <span class="nv">$ </span>jekyll serve</code></pre></div>
 
 <p>Jekyll Documentation: <a href="https://jekyllrb.com/docs/home">https://jekyllrb.com/docs/home</a></p>
 
 <h2 id="github-pages">GitHub Pages</h2>
 
-<p>GitHub Pages are public webpages hosted and published through GitHub..</p>
+<p>GitHub Pages are public webpages hosted and published through GitHub.</p>
 
 <p>Using Github Pages is easy:</p>
 
 <ul>
-  <li>create a new repository named username.github.io, where username is your username (or organization name) on GitHub.</li>
-  <li>add, commit and push a <em>index.html</em>.</li>
-  <li>access http://username.github.io</li>
+  <li>Create a new repository named username.github.io, where username is your username (or organization name) on GitHub.</li>
+  <li>Add, commit and push a <em>index.html</em>.</li>
+  <li>Access http://username.github.io</li>
 </ul>
 
 <p>To <strong>host your Jekyll Blog on GitHub Pages</strong> just push your unbuilt Jekyll Blog to the master branch of your user repository.
