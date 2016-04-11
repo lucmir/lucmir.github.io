@@ -2,7 +2,6 @@
 
 .lineno { 
   color: #ccc; 
-  display:inline-block; 
   padding: 0; 
   border: none;
   -webkit-touch-callout: none;
@@ -15,7 +14,6 @@
 
 .linenos { 
   color: #ccc; 
-  display:inline-block; 
   padding: 0; 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -45,6 +43,7 @@ pre {
     display: block;
     overflow-x: auto;
     border: none;
+    margin-top: 15px;
     margin-bottom: 15px;
     border-spacing: 0px;
 }
