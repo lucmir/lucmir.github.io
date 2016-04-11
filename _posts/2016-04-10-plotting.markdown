@@ -4,7 +4,7 @@ title:  "Simple data analysis with CDF and CCDF"
 date:   2016-04-10 10:10:00
 categories: web
 description: Cumulative Distribution Function (CDF) and Complementary Cumulative Distribution Function (CCDF) are simple but useful techniques for data analysis.
-published: false
+published: true
 ---
 
 Data:
@@ -45,11 +45,13 @@ plot "data.txt" using 2:xtic(1) with boxes
 {% endhighlight %}
 
 <div align="center">
-    <img src="/assets/2016-04-10-plotting/scoresDist.png" width="550"/>
+    <img src="/assets/2016-04-10-plotting/scoresDist.png" width="500"/>
 </div>
 
 
 ## Cumulative Distribution Function ##
+
+Generating cumulative distribution function from distribution:
 
 {% highlight bash linenos=table %}
 #!/bin/bash
@@ -61,8 +63,11 @@ TOTAL=`awk -F " " 'BEGIN {x=0;} {x+=$2;} END {print x;}' $INFILE`;
 awk -v total="$TOTAL" -F " " 'BEGIN {sum=0;} {sum+=$2; print $1" "(sum);}' $INFILE > $OUTFILE
 {% endhighlight %}
 
+The code above can be executed as a bash script: save the code as *generateCDF.sh* and use the command *./generateCDF.sh inputfile outputfile*. The CDF data will be generated in *outputfile*.
+
+Using the same Gnuplot script (just change output and input filenames) will generate the following graphic:
 <div align="center">
-	<img src="/assets/2016-04-10-plotting/scoreCDF.png" width="550"/>
+    <img src="/assets/2016-04-10-plotting/scoreCDF.png" width="500"/>
 </div>
 
 
@@ -79,5 +84,5 @@ awk -v total="$TOTAL" -F " " 'BEGIN {sum=0;} {print $1" "(total-sum); sum=sum+$2
 {% endhighlight %}
 
 <div align="center">
-	<img src="/assets/2016-04-10-plotting/scoreCCDF.png" width="550"/>
+	<img src="/assets/2016-04-10-plotting/scoreCCDF.png" width="500"/>
 </div>
