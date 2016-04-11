@@ -13,3 +13,5 @@ github_username:  lucmir
 
 # Build settings
 markdown: kramdown
+
+future: false
