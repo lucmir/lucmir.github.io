@@ -30,7 +30,7 @@ pre {
     overflow: auto;
     width: inherit;
     margin-bottom: 0;
-    border: 0;
+    border: none;
 }
 
 .highlight code {
@@ -43,13 +43,21 @@ pre {
 .highlighttable {
     display: block;
     overflow-x: auto;
-    border: 0;
+    border: none;
+}
+
+.highlighttable td {
+    border: none;
+}
+
+.highlighttable tr {
+    border: none;
 }
 
 .highlighttable .highlight {
     padding: 0px;
     margin: 0px;
-    border: 0;
+    border: none;
 }
 
 .highlighttable pre code {
@@ -62,12 +70,12 @@ pre {
 highlighttable td.linenos {
     padding: 0;
     font-size: small;
-    border: 0;
+    border: none;
 }
 
 .highlighttable td.code {
     width:100%;
     padding: 0;
     font-size: small;
-    border: 0;
+    border: none;
 }
