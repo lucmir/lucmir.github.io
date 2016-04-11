@@ -85,3 +85,10 @@ pre {
     font-size: small;
     border: none;
 }
+
+/*
+* Site footer
+*/
+.site-footer {
+    padding: 10px;
+}
