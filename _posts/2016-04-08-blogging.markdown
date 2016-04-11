@@ -46,7 +46,13 @@ Starting a blog:
 $ jekyll new myblog
 {% endhighlight %}
 
-Running Jekyll locally:
+Building your Blog (all Blog content will be generate in folder *_site* as a static site):
+{% highlight bash %}
+$ cd myblog
+$ jekyll build
+{% endhighlight %}
+
+Running Jekyll locally (no need to build):
 {% highlight bash %}
 $ cd myblog
 $ jekyll serve
@@ -60,15 +66,17 @@ GitHub Pages are public webpages hosted and published through GitHub.
 
 Using Github Pages is easy: 
 
-- Create a new repository named username.github.io, where username is your username (or organization name) on GitHub.
+- Create a new repository named *username.github.io*, where *username* is your username (or organization name) on GitHub.
 - Add, commit and push a *index.html*.
 - Access http://username.github.io
 
-To **host your Jekyll Blog on GitHub Pages** just push your unbuilt Jekyll Blog to the master branch of your user repository.
+To **host your Jekyll Blog on GitHub Pages** just push your unbuilt Jekyll Blog to the master branch of your user repository (*username.github.io*).
 GitHub Pages will build the static website and serve it. It's also possible to host pages for your projects on GitHub Pages.
 
-More info about GitHub Pages: [https://pages.github.com](https://pages.github.com)<br/>
-More info about using Jekyll with GitHub Pages: [smashingmagazine/build-blog-jekyll-github-pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+If you **don't want to use GitHub Pages**, you can generate the Blog site (running *jekyll build*) and serve the content of folder *_site* with a HTTP Server (like Apache).  
 
+More info about GitHub Pages: [https://pages.github.com](https://pages.github.com)<br/>
+More info about deploying your Blog: [https://jekyllrb.com/docs/deployment-methods/](https://jekyllrb.com/docs/deployment-methods/)<br/>
+More info about using Jekyll with GitHub Pages: [smashingmagazine/build-blog-jekyll-github-pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 
 
