@@ -4,7 +4,7 @@ title:  "Simple data analysis with CDF and CCDF"
 date:   2016-04-10 10:10:00
 categories: web
 description: Cumulative Distribution Function (CDF) and Complementary Cumulative Distribution Function (CCDF) are simple but useful techniques for data analysis.
-published: true
+published: false
 ---
 
 Data:
