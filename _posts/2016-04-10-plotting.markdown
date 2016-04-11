@@ -45,7 +45,7 @@ plot "data.txt" using 2:xtic(1) with boxes
 {% endhighlight %}
 
 <div align="center">
-    <img src="/assets/2016-04-10-plotting/scoresDist.png" width="500"/>
+    <img src="/assets/2016-04-10-plotting/scoresDist.png" width="560"/>
 </div>
 
 
@@ -67,7 +67,7 @@ The code above can be executed as a bash script: save the code as *generateCDF.s
 
 Using the same Gnuplot script (just change output and input filenames) will generate the following graphic:
 <div align="center">
-    <img src="/assets/2016-04-10-plotting/scoreCDF.png" width="500"/>
+    <img src="/assets/2016-04-10-plotting/scoreCDF.png" width="560"/>
 </div>
 
 
@@ -84,5 +84,5 @@ awk -v total="$TOTAL" -F " " 'BEGIN {sum=0;} {print $1" "(total-sum); sum=sum+$2
 {% endhighlight %}
 
 <div align="center">
-	<img src="/assets/2016-04-10-plotting/scoreCCDF.png" width="500"/>
+	<img src="/assets/2016-04-10-plotting/scoreCCDF.png" width="560"/>
 </div>
