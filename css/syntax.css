@@ -71,7 +71,7 @@ pre {
     border: none;
 }
 
-highlighttable td.linenos {
+.highlighttable td.linenos {
     padding: 0;
     font-size: small;
     border: none;
