@@ -28,8 +28,6 @@ pre {
     font-size: small;
     overflow: auto;
     width: inherit;
-    margin-bottom: 0;
-    border: none;
 }
 
 .highlight code {
