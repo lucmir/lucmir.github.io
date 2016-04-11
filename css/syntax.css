@@ -30,6 +30,7 @@ pre {
     overflow: auto;
     width: inherit;
     margin-bottom: 0;
+    border: 0;
 }
 
 .highlight code {
@@ -42,11 +43,13 @@ pre {
 .highlighttable {
     display: block;
     overflow-x: auto;
+    border: 0;
 }
 
 .highlighttable .highlight {
     padding: 0px;
     margin: 0px;
+    border: 0;
 }
 
 .highlighttable pre code {
