@@ -44,7 +44,8 @@ pre {
     display: block;
     overflow-x: auto;
     border: none;
-    
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-spacing: 0px;
 }
 
@@ -67,6 +68,7 @@ pre {
     white-space: pre; 
     font-size: small;
     padding: 0;
+    border: none;
 }
 
 highlighttable td.linenos {
