@@ -40,7 +40,7 @@ set style fill solid 1.0
 set ytics 1
 set yrange[0:*]
 
-set output "scoresDist.png"
+set output "scoreDist.png"
 plot "data.txt" using 2:xtic(1) with boxes
 {% endhighlight %}
 
@@ -57,8 +57,8 @@ plot "data.txt" using 2:xtic(1) with boxes
 INFILE=$1
 OUTFILE=$2
 
-TOTAL=`awk -F " " 'BEGIN{ x=0; } { x+=$2; } END{ print x; }' $INFILE`;
-awk -v total="$TOTAL" -F " " 'BEGIN{ sum=0; } { sum+=$2; print $1" "(sum); }' $INFILE > $OUTFILE
+TOTAL=`awk -F " " 'BEGIN {x=0;} {x+=$2;} END {print x;}' $INFILE`;
+awk -v total="$TOTAL" -F " " 'BEGIN {sum=0;} {sum+=$2; print $1" "(sum);}' $INFILE > $OUTFILE
 {% endhighlight %}
 
 <div align="center">
@@ -74,8 +74,8 @@ awk -v total="$TOTAL" -F " " 'BEGIN{ sum=0; } { sum+=$2; print $1" "(sum); }' $I
 INFILE=$1
 OUTFILE=$2
 
-TOTAL=`awk -F " " 'BEGIN{ x=0; } { x+=$2; } END{ print x; }' $INFILE`;
-awk -v total="$TOTAL" -F " " 'BEGIN{ sum=0; } { print $1" "(total-sum); sum=sum+$2; }' $INFILE > $OUTFILE;
+TOTAL=`awk -F " " 'BEGIN {x=0;} {x+=$2;} END {print x;}' $INFILE`;
+awk -v total="$TOTAL" -F " " 'BEGIN {sum=0;} {print $1" "(total-sum); sum=sum+$2;}' $INFILE > $OUTFILE;
 {% endhighlight %}
 
 <div align="center">
