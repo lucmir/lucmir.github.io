@@ -15,13 +15,23 @@ layout: default
     {% for post in paginator.posts %}
       <li>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></br>
+            <span class="post-meta">{{ post.date | date:"%b %-d, %Y" }}</span>
+            </br>
             {% if post.description %}
                 <small>
                     {{ post.description }}
-		    <!--</br>
+		                <!--</br>
                     <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>-->
                 </small>
+            {% endif %}
+            {% if post.tags %}
+              </br>
+              <small class="tags">
+                <i class="fa fa-tags" aria-hidden="true"></i> 
+                {% for tag in post.tags %}
+                  {% if forloop.index0 != 0 %} {% endif %}{{ tag }}
+                {% endfor %}
+              </small>
             {% endif %}
         </h3>
       </li>

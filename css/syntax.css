@@ -87,8 +87,20 @@ pre {
 }
 
 /*
-* Site footer
-*/
+ * Site footer
+ */
 .site-footer {
     padding: 10px;
+}
+
+/*
+ * Text
+ */
+.tags {
+   font-size: 73%;
+   color: #828282; 
+}
+
+.right {
+    text-align: right;
 }
