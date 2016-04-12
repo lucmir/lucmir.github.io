@@ -76,8 +76,11 @@ GitHub Pages will build the static website and serve it. It's also possible to h
 
 If you **don't want to use GitHub Pages**, you can generate the Blog site (running *jekyll build*) and serve the content of folder *_site* with a HTTP Server (like Apache).  
 
-More info about GitHub Pages: [https://pages.github.com](https://pages.github.com)<br/>
-More info about deploying your Blog: [https://jekyllrb.com/docs/deployment-methods/](https://jekyllrb.com/docs/deployment-methods/)<br/>
-More info about using Jekyll with GitHub Pages: [smashingmagazine/build-blog-jekyll-github-pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+
+## References ##
+
+GitHub Pages: [https://pages.github.com](https://pages.github.com)<br/>
+Deploying your Blog: [https://jekyllrb.com/docs/deployment-methods/](https://jekyllrb.com/docs/deployment-methods/)<br/>
+Using Jekyll with GitHub Pages: [smashingmagazine/build-blog-jekyll-github-pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 
 
