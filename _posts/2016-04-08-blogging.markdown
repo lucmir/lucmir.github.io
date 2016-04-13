@@ -8,14 +8,7 @@ tags: blog github jekyll web
 published: true
 ---
 
-<!-- In the first page of Jekyll site you can read "Transform your plain text into static websites and blogs". This was my motivation to start a Blog.
-Before knowing about Jekyll I decided that I needed to document some solutions (like code snippets) to recurrent problems in my daily routine as a developer.
-I decided to document on Web and to make it public (maibe your problem was my problem). So I realized that my project became a blog.
-
-As I didn't want to spend a lot of time learning Blog tools, I searched...
--->
 When I decided to start a Blog I didn't want to spend a lot of time learning about Blog platforms or building a CMS from scratch. 
-<!-- My objective is just to document some recurrent solutions, so I it must be clean, fast to build and  -->
 
 I found the perfect solution (free and easy) for building quickly a clean and easy to mantain Blog:
 

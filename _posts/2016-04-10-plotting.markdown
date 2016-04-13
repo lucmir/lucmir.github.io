@@ -8,7 +8,15 @@ tags: statistics gnuplot plot data-analysis
 published: false
 ---
 
-Data:
+Analysing raw data, especially when dealing with a lot of information, can be challenging.
+In many applications it is absolutely useful to turn data in a visualization.
+Using elementary data visualization and very simple statistical analysis we can have a better understanding.
+
+Suppose we want to analyse the performance of students in a exam.
+
+Here we have the distribution of scores for a class of 20 students.
+Each line shows a specific score (ranging from 0 to 10) and the number of students that scored it.
+For example, score 10 was reached just by one student.
 
 {% highlight text %}
 0 0
@@ -24,7 +32,26 @@ Data:
 10 1
 {% endhighlight %}
 
-Plotting distributions
+
+## Mean and Standard Deviation ##
+
+We can calculate mean ($$\mu$$) and standard deviation ($$\sigma$$):<br/>
+
+$$\mu = \frac{1}{n}\sum_{i=1}^na_i = \frac{1}{n}\left(a_1 + a_2 + \cdots + a_n\right)$$<br/>
+
+$$\sigma = \sqrt{\frac{1}{N}\left[(x_1-\mu)^2 + (x_2-\mu)^2 + \cdots + (x_N - \mu)^2\right]}$$<br/>
+
+Mean provides a global global overview of the result while standard deviation indicates how close individual scores are to the mean.
+
+For our sample data, $$\mu = 5.5$$ and $$\sigma = 2.41704$$
+
+Standard deviation interpretetion depends on the sampling scheme or the experiment. We can estimate the *Coefficient of Variation* ($$CV=\sigma/\mu$$) and, as a "rule of thumb", we consider that $$CV >= 1$$ indicates a relatively high variation, while $$CV < 1$$ can be considered low. In our case study $$CV = 0.43946 < 1$$.
+
+
+## Plotting Distribution ##
+
+We can plot the distribution as a bar chart using **Gnuplot**.
+The script below generate a simple bar chart as an image.
 
 {% highlight gnuplot linenos=table %}
 reset
@@ -45,9 +72,15 @@ set output "scoreDist.png"
 plot "data.txt" using 2:xtic(1) with boxes
 {% endhighlight %}
 
+With Gnuplot installed, save script as *plot.gp* and run: *gnuplot plot.gp*. 
+Distribution must be saved as *data.txt*.
+After executing the command, the following image will be generated in local dir (*scoreDist.png*):
+
 <div align="center">
     <img src="/assets/2016-04-10-plotting/scoreDist.png" width="560"/>
 </div>
+
+Each bar indicates the number of students (occurrences) with the respective score.
 
 
 ## Cumulative Distribution Function ##
@@ -71,6 +104,9 @@ Using the same Gnuplot script (just change output and input filenames) will gene
     <img src="/assets/2016-04-10-plotting/scoreCDF.png" width="560"/>
 </div>
 
+This graphic can be interpreted as...
+For example, every student had a score of 10 or less (10 is the max allowed value), but only 3 students had a score of 2 or less.
+
 
 ## Complementary Cumulative Distribution Function ##
 
@@ -84,11 +120,22 @@ TOTAL=`awk -F " " 'BEGIN {x=0;} {x+=$2;} END {print x;}' $INFILE`;
 awk -v total="$TOTAL" -F " " 'BEGIN {sum=0;} {print $1" "(total-sum); sum+=$2;}' $INFILE > $OUTFILE;
 {% endhighlight %}
 
+The code above can be executed as a bash script: save the code as *generateCCDF.sh* and use the command *./generateCCDF.sh inputfile outputfile*. The CCDF data will be generated in *outputfile*.
+
+Using the same Gnuplot script (just change output and input filenames) will generate the following graphic:
+
 <div align="center">
 	<img src="/assets/2016-04-10-plotting/scoreCCDF.png" width="560"/>
 </div>
 
+This graphic can be interpreted as...
+For example, every student had a score of at least 0 (it's not possible to score lass then 0), but only 2 students had a score of 9 or more.
+
+<br/>
+Data visualization allied with statistical analysis ... a lot of applications.
 
 ## References ##
 
-Download complete example (data files, gnuplot scripts and graphics): <a href="/assets/2016-04-10-plotting/plotting_CDF_CCDF.zip">plotting_CDF_CCDF.zip</a>
+Download complete example (data files, gnuplot scripts and plots): <a href="/assets/2016-04-10-plotting/plotting_CDF_CCDF.zip">plotting_CDF_CCDF.zip</a><br/>
+
+Gnuplot: [www.gnuplot.info](http://www.gnuplot.info/)
