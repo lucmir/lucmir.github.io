@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Simple data analysis with CDF and CCDF"
+title:  "Cumulative Distribution Function"
 date:   2016-04-10 10:10:00
 categories: statistics
-description: Cumulative Distribution Function (CDF) and Complementary Cumulative Distribution Function (CCDF) are simple but useful techniques for data analysis.
+description: Cumulative Distribution Function (CDF) and Complementary Cumulative Distribution Function (CCDF) are simple but useful techniques for data analysis. Case study&#58; Brazilian High School National Exam (ENEM).
 tags: statistics gnuplot plot data-analysis
 published: false
 ---
@@ -73,17 +73,21 @@ plot "data.txt" using 2:xtic(1) with boxes
 {% endhighlight %}
 
 With Gnuplot installed, save script as *plot.gp* and run: *gnuplot plot.gp*. 
-Distribution must be saved as *data.txt*.
-After executing the command, the following image will be generated in local dir (*scoreDist.png*):
+Distribution data must be saved as *data.txt*.
+After executing the command, the following image will be generated in the current dir:
 
 <div align="center">
-    <img src="/assets/2016-04-10-plotting/scoreDist.png" width="560"/>
+    <img src="/assets/2016-04-10-plotting/scoreDist.png" width="520"/>
 </div>
-
-Each bar indicates the number of students (occurrences) with the respective score.
+<br/>
+Each bar represents the number of students (occurrences) with the respective score.
 
 
 ## Cumulative Distribution Function ##
+
+The **Cumulative Distribution Function** (CDF) of a distribution function of a random variable $$X$$ is the probability that $$X$$ will take a value less than or equal to $$x$$:
+
+$$F_X(x) = \operatorname{P}(X\leq x)$$
 
 Generating cumulative distribution function from distribution:
 
@@ -101,8 +105,8 @@ The code above can be executed as a bash script: save the code as *generateCDF.s
 
 Using the same Gnuplot script (just change output and input filenames) will generate the following graphic:
 <div align="center">
-    <img src="/assets/2016-04-10-plotting/scoreCDF.png" width="560"/>
-</div>
+    <img src="/assets/2016-04-10-plotting/scoreDist_cdf.png" width="520"/>
+</div><br/>
 
 This graphic can be interpreted as...
 For example, every student had a score of 10 or less (10 is the max allowed value), but only 3 students had a score of 2 or less.
@@ -125,14 +129,29 @@ The code above can be executed as a bash script: save the code as *generateCCDF.
 Using the same Gnuplot script (just change output and input filenames) will generate the following graphic:
 
 <div align="center">
-	<img src="/assets/2016-04-10-plotting/scoreCCDF.png" width="560"/>
+	<img src="/assets/2016-04-10-plotting/scoreDist_ccdf.png" width="520"/>
 </div>
 
 This graphic can be interpreted as...
-For example, every student had a score of at least 0 (it's not possible to score lass then 0), but only 2 students had a score of 9 or more.
+For example, every student had a score of at least 0 (it's not possible to score lass then 0), but only 2 students had a score of 9 or more.  
+<br/>
+
+## Case Study: Brazilian High School National Exam ##
+
+High School National Exam (ENEM) is.
+
+<div align="center">
+    <img src="/assets/2016-04-10-plotting/ENEM/scoreDist.png" width="520"/>
+</div><br/>
+<div align="center">
+    <img src="/assets/2016-04-10-plotting/ENEM/scoreDist_cdf.png" width="520"/>
+</div><br/>
+<div align="center">
+    <img src="/assets/2016-04-10-plotting/ENEM/scoreDist_ccdf.png" width="520"/>
+</div><br/>
+
 
 <br/>
-Data visualization allied with statistical analysis ... a lot of applications.
 
 ## References ##
 

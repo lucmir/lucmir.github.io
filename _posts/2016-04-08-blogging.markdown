@@ -68,7 +68,7 @@ To **host your Jekyll Blog on GitHub Pages** just push your unbuilt Jekyll Blog 
 GitHub Pages will build the static website and serve it. It's also possible to host pages for your projects on GitHub Pages.
 
 If you **don't want to use GitHub Pages**, you can generate the Blog site (running *jekyll build*) and serve the content of folder *_site* with a HTTP Server (like Apache).  
-
+<br/>
 
 ## References ##
 
