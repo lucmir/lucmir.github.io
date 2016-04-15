@@ -5,7 +5,7 @@ date:   2016-04-10 10:10:00
 categories: statistics
 description: Cumulative Distribution Function (CDF) and Complementary Cumulative Distribution Function (CCDF) are simple but useful techniques for data analysis. Case study&#58; Brazilian High School National Exam (ENEM).
 tags: statistics gnuplot plot data-analysis
-published: false
+published: true
 ---
 
 Analysing raw data, especially when dealing with a lot of information, can be challenging.
