@@ -4,7 +4,7 @@ title:  "Blogging with Jekyll and GitHub Pages"
 date:   2016-04-08 13:10:00
 categories: web
 description: Using Jekyll and GitHub Pages to build and host a simple Blog in minutes.
-tags: blog github jekyll web
+tags: blog github jekyll web github-pages
 published: true
 ---
 

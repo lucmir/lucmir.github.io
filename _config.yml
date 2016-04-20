@@ -2,7 +2,7 @@
 title: "lucmir"
 email: luccmir@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  "Just a humble Blog to document solutions for my daily problems as a developer."
+  "Just a documentation of some problems and solution attempts from my daily routine working as a Software Developer."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lucmir.github.io" # the base hostname & protocol for your site
 paginate: 20
