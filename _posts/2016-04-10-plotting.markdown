@@ -104,8 +104,8 @@ The code above can be executed as a *bash* script: save the code as *generateCDF
 The same Gnuplot script (just change output and input filenames) will generate the following chart:
 <div align="center">
     <img src="/assets/2016-04-10-plotting/scoreDist_cdf.png" width="520"/>
-</div><br/>
-
+</div>
+<br/>
 Each bar in this chart can be interpreted as the number of occurrences (students) in sample data that scored less or equal than the corresponding value in bar. For example, all students (20) had a score of 10 or less (10 is the maximum allowed value), but only 3 students had a score of 2 or less.
 
 Taking the difference between two bars, we can obtain the number of students that scored between two values. For example, 9 students scored less or equal 5 and 16 students scored less or equal 7, so 7 students (16-9) scored between 5 and 7.
@@ -135,8 +135,8 @@ The same Gnuplot script (just change output and input filenames) will generate t
 
 <div align="center">
 	<img src="/assets/2016-04-10-plotting/scoreDist_ccdf.png" width="520"/>
-</div><br/>
-
+</div>
+<br/>
 Each bar in this chart can be interpreted as the number of occurrences (students) in sample data that scored equal or more than the corresponding value in bar. For example, all students (20) scored at least 0 (negative values are not allowed), but only 4 students had a score of 8 or more.
 
 This chart is useful to ask, for example, "how many students reached at least 60%?". We can get it by checking directly the number of students corresponding to score 6: 11 students reached at least 60%.
