@@ -94,9 +94,7 @@ pre {
 }
 
 
-/*
- * Text
- */
+/* Text */
 .tags {
    font-size: 73%;
    color: #828282; 
@@ -104,4 +102,11 @@ pre {
 
 .right {
     text-align: right;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .2rem;
+  padding-top: .4rem;
+  text-rendering: optimizeLegibility;
 }
