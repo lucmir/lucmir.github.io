@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<table style="width:85%; padding:0;">
+<table style="width:75%; padding:0;">
     <tr>
         <td>
             <img src="/assets/about/eu.jpg" width="160"/>
