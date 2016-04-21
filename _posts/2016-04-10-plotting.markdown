@@ -38,7 +38,7 @@ We can calculate mean ($$\mu$$) and standard deviation ($$\sigma$$):<br/>
 
 $$\mu = \frac{1}{n}\sum_{i=1}^na_i = \frac{1}{n}\left(a_1 + a_2 + \cdots + a_n\right)$$<br/>
 
-$$\sigma = \sqrt{\frac{1}{N}\left[(x_1-\mu)^2 + (x_2-\mu)^2 + \cdots + (x_N - \mu)^2\right]}$$<br/>
+$$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^n(x_i-\mu)^2}$$<br/>
 
 Mean provides a global overview of the result while standard deviation indicates how close individual scores are to the mean.
 
@@ -175,5 +175,4 @@ Gnuplot: [www.gnuplot.info](http://www.gnuplot.info/)<br/>
 Awk: [Simple awk tutorial](http://www.hcs.harvard.edu/~dholland/computers/awk.html), [The GNU Awk User's Guide](http://www.gnu.org/software/gawk/manual/gawk.html)<br/>
 Cumulative Distribution Function: [Wikipedia - Cumulative Distribution Function](https://en.wikipedia.org/wiki/Cumulative_distribution_function)<br/>
 Cumulative Distribution Function Charts in Excel: [Police Analyst](http://policeanalyst.com/cumulative-distribution-function-charts-in-excel/)
-
 
