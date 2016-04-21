@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-<table style="width:65%">
+<table style="width:80%; padding:0;">
     <tr>
         <td>
-            <img src="/assets/about/eu.jpg" width="160"/>
+            <img src="/assets/about/eu.jpg" width="150"/>
         </td>
         <td>
             Hello World! I am Lucas.<br>
