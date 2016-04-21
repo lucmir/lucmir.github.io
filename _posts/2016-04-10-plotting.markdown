@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cumulative Distribution Function"
-date:   2016-04-10 10:10:00
+date:   2016-04-21 11:10:00
 categories: statistics
 description: How to generate and plot Cumulative Distribution Function (CDF) and Complementary Cumulative Distribution Function (CCDF), simple but useful techniques for data analysis.
 tags: statistical plot gnuplot shell-script data-analysis
