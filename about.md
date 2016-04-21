@@ -12,7 +12,7 @@ permalink: /about/
         <td>
             Hello World!<br>I am Lucas.<br>
             I am a developer.<br>
-            Contact me: <i>luccmir@gmail.com</i>
+            <small>Contact me: <i>luccmir@gmail.com</i></small>
         </td>
     </tr>
 </table>
