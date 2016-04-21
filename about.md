@@ -10,7 +10,7 @@ permalink: /about/
             <img src="/assets/about/eu.jpg" width="150"/>
         </td>
         <td>
-            Hello World! I am Lucas.<br>
+            Hello World!<br>I am Lucas.<br>
             I am a developer.<br>
             Contact me: <i>luccmir@gmail.com</i>
         </td>
